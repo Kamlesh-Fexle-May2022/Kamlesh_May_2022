@@ -6,6 +6,7 @@ public class DemoSampleClass3 {
         System.debug('rollno' +no);
         System.debug('name' + Name);
         System.debug('Hellow Debug');
+        System.debug('Hellow Debug2');
     }
 
 }
