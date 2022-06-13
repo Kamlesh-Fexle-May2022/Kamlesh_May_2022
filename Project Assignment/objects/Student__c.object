@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Account_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bank_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Bank Name</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bank_Phone_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Bank Phone Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Batch_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Batch Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Time</type>
+    </fields>
+    <fields>
+        <fullName>City__c</fullName>
+        <externalId>false</externalId>
+        <label>City</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sikar</fullName>
+                    <default>false</default>
+                    <label>Sikar</label>
+                </value>
+                <value>
+                    <fullName>Jaipur</fullName>
+                    <default>false</default>
+                    <label>Jaipur</label>
+                </value>
+                <value>
+                    <fullName>Ajmer</fullName>
+                    <default>false</default>
+                    <label>Ajmer</label>
+                </value>
+                <value>
+                    <fullName>Tonk</fullName>
+                    <default>false</default>
+                    <label>Tonk</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Class__c</fullName>
+        <externalId>false</externalId>
+        <label>Class</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>11th Class</fullName>
+                    <default>false</default>
+                    <label>11th Class</label>
+                </value>
+                <value>
+                    <fullName>12th Class</fullName>
+                    <default>false</default>
+                    <label>12th Class</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Current_Year__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Year</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Donation_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Donation Amount</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Exam_Fees_Submitted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Exam Fees Submitted?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Father_Mobile_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Father Mobile Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Father_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Father Name</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fees_Submitted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Fees Submitted?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Home_Phone_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Home Phone Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>IFSC_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>IFSC Code</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Donation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Donation?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LinkedIn_Profile__c</fullName>
+        <externalId>false</externalId>
+        <label>LinkedIn Profile</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Mobile_No__c</fullName>
+        <externalId>false</externalId>
+        <label>Mobile No</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Mobile_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Mobile Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Overall_Grade__c</fullName>
+        <externalId>false</externalId>
+        <label>Overall Grade</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>A+</fullName>
+                    <default>false</default>
+                    <label>A+</label>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                    <label>B</label>
+                </value>
+                <value>
+                    <fullName>B+</fullName>
+                    <default>false</default>
+                    <label>B+</label>
+                </value>
+                <value>
+                    <fullName>C+</fullName>
+                    <default>false</default>
+                    <label>C+</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>F</fullName>
+                    <default>false</default>
+                    <label>F</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Pending_Exam_Fees__c</fullName>
+        <externalId>false</externalId>
+        <label>Pending Exam Fees</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Pending_Fees_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Pending Fees Amount</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Pending_Overall_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Pending Overall Amount</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Resume__c</fullName>
+        <externalId>false</externalId>
+        <label>Resume</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Roll_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Roll Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Section__c</fullName>
+        <externalId>false</externalId>
+        <label>Section</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Section A</fullName>
+                    <default>false</default>
+                    <label>Section A</label>
+                </value>
+                <value>
+                    <fullName>Section B</fullName>
+                    <default>false</default>
+                    <label>Section B</label>
+                </value>
+                <value>
+                    <fullName>Section C</fullName>
+                    <default>false</default>
+                    <label>Section C</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>State__c</fullName>
+        <externalId>false</externalId>
+        <label>State</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Stream__c</fullName>
+        <externalId>false</externalId>
+        <label>Stream</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Computer Science Engineering</fullName>
+                    <default>false</default>
+                    <label>Computer Science Engineering</label>
+                </value>
+                <value>
+                    <fullName>Mechanical Engineering</fullName>
+                    <default>false</default>
+                    <label>Mechanical Engineering</label>
+                </value>
+                <value>
+                    <fullName>Civil Engineering</fullName>
+                    <default>false</default>
+                    <label>Civil Engineering</label>
+                </value>
+                <value>
+                    <fullName>Bio-Chemical Engineering</fullName>
+                    <default>false</default>
+                    <label>Bio-Chemical Engineering</label>
+                </value>
+                <value>
+                    <fullName>Electrical Engineering</fullName>
+                    <default>false</default>
+                    <label>Electrical Engineering</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Student_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Student Address</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Student_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Student Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Subjects_in_which_Back__c</fullName>
+        <externalId>false</externalId>
+        <label>Subjects in which Back</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <controllingField>X1st_Sem_Back__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Mathematics</fullName>
+                    <default>false</default>
+                    <label>Mathematics</label>
+                </value>
+                <value>
+                    <fullName>Computer Programing</fullName>
+                    <default>false</default>
+                    <label>Computer Programing</label>
+                </value>
+                <value>
+                    <fullName>Physics</fullName>
+                    <default>false</default>
+                    <label>Physics</label>
+                </value>
+                <value>
+                    <fullName>Chemistry</fullName>
+                    <default>false</default>
+                    <label>Chemistry</label>
+                </value>
+                <value>
+                    <fullName>Environment</fullName>
+                    <default>false</default>
+                    <label>Environment</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>X1st_Sem_Back__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>1st Sem Back?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X1st_Sem_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <label>1st Sem Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>X2nd_Sem_Back__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>2nd Sem Back?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X2nd_Sem_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <label>2nd Sem Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>X2nd_Sem_Subjects_in_which_Back__c</fullName>
+        <externalId>false</externalId>
+        <label>2nd Sem(Subjects in which Back)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Engineering Mathematics-II.</fullName>
+                    <default>false</default>
+                    <label>Engineering Mathematics-II.</label>
+                </value>
+                <value>
+                    <fullName>Engineering Physics/ Engineering Chemistry.</fullName>
+                    <default>false</default>
+                    <label>Engineering Physics/ Engineering Chemistry.</label>
+                </value>
+                <value>
+                    <fullName>Basic Electrical Engineering / Basic Electronics Engineering.</fullName>
+                    <default>false</default>
+                    <label>Basic Electrical Engineering / Basic Electronics Engineering.</label>
+                </value>
+                <value>
+                    <fullName>Programming and Problem Solving / Engineering Mechanics.</fullName>
+                    <default>false</default>
+                    <label>Programming and Problem Solving / Engineering Mechanics.</label>
+                </value>
+                <value>
+                    <fullName>Engineering Drawing (Engineering Graphics )</fullName>
+                    <default>false</default>
+                    <label>Engineering Drawing (Engineering Graphics )</label>
+                </value>
+                <value>
+                    <fullName>Project-Based Learning.</fullName>
+                    <default>false</default>
+                    <label>Project-Based Learning.</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>X3rd_Sem_Back__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>3rd Sem Back?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X3rd_Sem_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <label>3rd Sem Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>X3rd_Sem_Subjects_in_which_Back__c</fullName>
+        <externalId>false</externalId>
+        <label>3rd Sem(Subjects in which Back)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Theory of Machines - I</fullName>
+                    <default>false</default>
+                    <label>Theory of Machines - I</label>
+                </value>
+                <value>
+                    <fullName>Basic Electronics</fullName>
+                    <default>false</default>
+                    <label>Basic Electronics</label>
+                </value>
+                <value>
+                    <fullName>Transform Calculus (Mathematics – V)</fullName>
+                    <default>false</default>
+                    <label>Transform Calculus (Mathematics – V)</label>
+                </value>
+                <value>
+                    <fullName>Introduction to Material Science and Engineering</fullName>
+                    <default>false</default>
+                    <label>Introduction to Material Science and Engineering</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>X4th_Sem_Back__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>4th Sem Back?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X4th_Sem_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <label>4th Sem Percentage</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>X4th_Sem_Subjects_in_which_Back__c</fullName>
+        <externalId>false</externalId>
+        <label>4th Sem(Subjects in which Back)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Thermodynamics.</fullName>
+                    <default>false</default>
+                    <label>Thermodynamics.</label>
+                </value>
+                <value>
+                    <fullName>Engineering Materials.</fullName>
+                    <default>false</default>
+                    <label>Engineering Materials.</label>
+                </value>
+                <value>
+                    <fullName>Manufacturing Technology-II.</fullName>
+                    <default>false</default>
+                    <label>Manufacturing Technology-II.</label>
+                </value>
+                <value>
+                    <fullName>Theory of Machines.</fullName>
+                    <default>false</default>
+                    <label>Theory of Machines.</label>
+                </value>
+                <value>
+                    <fullName>Strength of Materials.</fullName>
+                    <default>false</default>
+                    <label>Strength of Materials.</label>
+                </value>
+                <value>
+                    <fullName>Machine Drawing.</fullName>
+                    <default>false</default>
+                    <label>Machine Drawing.</label>
+                </value>
+                <value>
+                    <fullName>Professional Practice -III.</fullName>
+                    <default>false</default>
+                    <label>Professional Practice -III.</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <label>Student</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Student Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Students</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Registrar_Layout</fullName>
+        <active>true</active>
+        <label>Registrar Layout</label>
+        <picklistValues>
+            <picklist>City__c</picklist>
+            <values>
+                <fullName>Ajmer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jaipur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sikar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tonk</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Class__c</picklist>
+            <values>
+                <fullName>11th Class</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12th Class</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Overall_Grade__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>A%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Section__c</picklist>
+            <values>
+                <fullName>Section A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Section B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Section C</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Stream__c</picklist>
+            <values>
+                <fullName>Bio-Chemical Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Civil Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Science Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electrical Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechanical Engineering</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subjects_in_which_Back__c</picklist>
+            <values>
+                <fullName>Chemistry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Programing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Environment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mathematics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Physics</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>X2nd_Sem_Subjects_in_which_Back__c</picklist>
+            <values>
+                <fullName>Basic Electrical Engineering %2F Basic Electronics Engineering%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Drawing %28Engineering Graphics %29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Mathematics-II%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Physics%2F Engineering Chemistry%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Programming and Problem Solving %2F Engineering Mechanics%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project-Based Learning%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>X3rd_Sem_Subjects_in_which_Back__c</picklist>
+            <values>
+                <fullName>Basic Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Introduction to Material Science and Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Theory of Machines - I</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transform Calculus %28Mathematics %E2%80%93 V%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>X4th_Sem_Subjects_in_which_Back__c</picklist>
+            <values>
+                <fullName>Engineering Materials%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Drawing%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing Technology-II%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Professional Practice -III%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strength of Materials%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Theory of Machines%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Thermodynamics%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Teacher_Layout</fullName>
+        <active>true</active>
+        <label>Teacher Layout</label>
+        <picklistValues>
+            <picklist>City__c</picklist>
+            <values>
+                <fullName>Ajmer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jaipur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sikar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tonk</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Class__c</picklist>
+            <values>
+                <fullName>11th Class</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12th Class</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Overall_Grade__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>A%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Section__c</picklist>
+            <values>
+                <fullName>Section A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Section B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Section C</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Stream__c</picklist>
+            <values>
+                <fullName>Bio-Chemical Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Civil Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Science Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electrical Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechanical Engineering</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subjects_in_which_Back__c</picklist>
+            <values>
+                <fullName>Chemistry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Programing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Environment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mathematics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Physics</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>X2nd_Sem_Subjects_in_which_Back__c</picklist>
+            <values>
+                <fullName>Basic Electrical Engineering %2F Basic Electronics Engineering%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Drawing %28Engineering Graphics %29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Mathematics-II%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Physics%2F Engineering Chemistry%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Programming and Problem Solving %2F Engineering Mechanics%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project-Based Learning%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>X3rd_Sem_Subjects_in_which_Back__c</picklist>
+            <values>
+                <fullName>Basic Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Introduction to Material Science and Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Theory of Machines - I</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transform Calculus %28Mathematics %E2%80%93 V%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>X4th_Sem_Subjects_in_which_Back__c</picklist>
+            <values>
+                <fullName>Engineering Materials%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Drawing%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing Technology-II%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Professional Practice -III%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strength of Materials%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Theory of Machines%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Thermodynamics%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
