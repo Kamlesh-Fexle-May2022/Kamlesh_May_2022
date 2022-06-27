@@ -3,7 +3,7 @@
     <types>
         <members>StudentInfo</members>
         <members>StudentQuery</members>
-		<members>HelloWorldTestClass</members>
+	<members>HelloWorldTestClass</members>
         <members>LeftTrianglePascal</members>
         <members>MyHelloWorld</members>
         <name>ApexClass</name>
@@ -24,7 +24,7 @@
 	<members>Subject__c</members>
         <members>Teacher__c</members>
         <members>Year_of_Class__c</members>
-		<members>Book__c</members>
+	<members>Book__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -36,7 +36,7 @@
 	<members>Subject__c</members>
         <members>Teacher__c</members>
         <members>Year_of_Class__c</members>
-		<members>Book__c</members>
+	<members>Book__c</members>
         <name>CustomTab</name>
     </types>
     <types>
