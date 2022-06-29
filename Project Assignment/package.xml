@@ -2,6 +2,14 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>StudentInfo</members>
+		<members>CallByValueAndReference</members>
+        <members>Constructors</members>
+        <members>LoopsAndConditionalStatements</members>
+        <members>MethodOverLoading</members>
+        <members>MethodOverriding</members>
+		<members>ExpressionsAndOperators</members>
+		<members>DatatypeAndMethods</members>
+        <members>StudentRecord</members>
         <members>StudentQuery</members>
 	<members>HelloWorldTestClass</members>
         <members>LeftTrianglePascal</members>
