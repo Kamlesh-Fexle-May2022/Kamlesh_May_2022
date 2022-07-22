@@ -2,9 +2,9 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>StudentInfo</members>
-		<members>AccountTriggerHandler</members>
+	<members>AccountTriggerHandler</members>
         <members>AccountTriggerHandlerTests</members>
-		<members>AggregateResults</members>
+	<members>AggregateResults</members>
         <members>CountryStateJSONGenerator</members>
         <members>DynamicMapFillAndSearch</members>
 	<members>AccountInsertRecord</members>
@@ -29,7 +29,7 @@
         <members>MyHelloWorld</members>
         <name>ApexClass</name>
     </types>
-	<types>
+    <types>
         <members>Country__c.Country_Code__c</members>
         <members>Country__c.Country_JSON_Data__c</members>
         <members>Country__c.Total_Number_of_Districts__c</members>
@@ -43,14 +43,14 @@
         <members>State__c.Total_Number_of_Districts__c</members>
         <name>CustomField</name>
     </types>
-	<types>
+    <types>
         <members>HelloWorldTrigger</members>
-		<members>AccountTrigger</members>
+	<members>AccountTrigger</members>
         <name>ApexTrigger</name>
     </types>
     <types>
         <members>Student__c</members>
-		<members>Country__c</members>
+	<members>Country__c</members>
         <members>District__c</members>
         <members>State__c</members>
 	<members>Account</members>
@@ -68,7 +68,7 @@
     </types>
     <types>
         <members>Student__c</members>
-		<members>Country__c</members>
+	<members>Country__c</members>
         <members>District__c</members>
         <members>State__c</members>
 	<members>College__c</members>
@@ -83,7 +83,7 @@
     </types>
     <types>
         <members>Student__c-Registrar Layout</members>
-		<members>Country__c-Country Layout</members>
+	<members>Country__c-Country Layout</members>
         <members>District__c-District Layout</members>
         <members>State__c-State Layout</members>
         <members>Student__c-Teacher Layout</members>
@@ -99,7 +99,7 @@
         <members>Year_of_Class__c-Year of Class Layout</members>
         <name>Layout</name>
     </types>
-	<types>
+    <types>
         <members>Country__c.All</members>
         <members>District__c.All</members>
         <members>State__c.All</members>
